@@ -1,0 +1,13 @@
+{
+    "ticket_bought": "Kúpil si lístok: %s (%d hodín)",
+    "not_enough_money": "Nemáš dostatok peňazí na účte!",
+    "invalid_args": "Neplatné argumenty príkazu!",
+    "not_towtrucker": "Nemáš prácu Towtrucker!",
+    "waypoint_title": "Towtrucker",
+    "waypoint_set": "Waypoint nastavený na vozidlo.",
+    "new_job_title": "Nová nezaplatená parkovacia pokuta",
+    "new_job_desc": "SPZ: %s nemá zaplatený lístok!",
+    "buyticket_usage_withspace": "Použitie: /buyparkingticket [SPZ s medzerou] [hodiny]",
+    "buyticket_usage_nospace": "Použitie: /buyparkingticket [SPZ] [hodiny]",
+    "not_near_vehicle": "Nie si blízko vozidla s touto SPZ alebo vozidlo neexistuje!"
+}

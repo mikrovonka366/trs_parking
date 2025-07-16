@@ -1,0 +1,13 @@
+{
+    "ticket_bought": "Vous avez acheté un ticket : %s (%d heures)",
+    "not_enough_money": "Vous n'avez pas assez d'argent sur votre compte bancaire !",
+    "invalid_args": "Arguments de commande invalides !",
+    "not_towtrucker": "Vous n'êtes pas dépanneur !",
+    "waypoint_title": "Dépanneur",
+    "waypoint_set": "Waypoint défini sur le véhicule.",
+    "new_job_title": "Nouveau ticket de stationnement impayé",
+    "new_job_desc": "Plaque : %s n'a pas de ticket payé !",
+    "buyticket_usage_withspace": "Utilisation : /buyparkingticket [PLAQUE avec espace] [heures]",
+    "buyticket_usage_nospace": "Utilisation : /buyparkingticket [PLAQUE] [heures]",
+    "not_near_vehicle": "Vous n'êtes pas près du véhicule avec cette plaque ou le véhicule n'existe pas !"
+}
