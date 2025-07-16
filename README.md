@@ -19,10 +19,7 @@ A modern, configurable parking ticket system for ESX-based FiveM servers.
 
 ## Supported Languages
 
-- English (`en`)
-
-
-
+- Only English (`en`)
 
 ---
 
@@ -38,7 +35,6 @@ A modern, configurable parking ticket system for ESX-based FiveM servers.
 
 See `config.lua` for all options:
 
-- `Locale`: Language for messages (`en`, `sk`, `cz`, `de`, `fr`, `pl`, ...)
 - `Notification`: Notification system (`esx`, `okokNotify`, `mythic`, `ox_lib`)
 - `PricePerHour`: Price for parking ticket per hour
 - `BlipDistance`, `SpawnDistance`, `FreeZones`, `TowtruckModels`, `IgnoreModels`, `IgnorePlates`
