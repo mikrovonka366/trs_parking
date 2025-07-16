@@ -11,7 +11,6 @@ A modern, configurable parking ticket system for ESX-based FiveM servers.
 - Parking ticket system with configurable price per hour
 - Towtrucker job with interactive dispatch UI
 - Blip system for unpaid tickets
-- Multi-language support (see `locales/` for available languages)
 - Configurable notification system (`esx`, `okokNotify`, `ox_lib`)
 - Free zones, ignored vehicles/plates, and more
 - Discord webhook logging for all major actions
@@ -21,13 +20,9 @@ A modern, configurable parking ticket system for ESX-based FiveM servers.
 ## Supported Languages
 
 - English (`en`)
-- Slovak (`sk`)
-- Czech (`cz`)
-- German (`de`)
-- French (`fr`)
-- Polish (`pl`)
 
-You can add your own language by creating a new JSON file in the `locales` folder.
+
+
 
 ---
 
@@ -75,13 +70,6 @@ This script does **not** respawn or restore parked vehicles after a server resta
 - Towtruckers see unpaid tickets in their dispatch UI and can set waypoints
 - If a car moves, the ticket is removed and the location is updated
 - All major actions are logged to Discord if webhook is set
-
----
-
-## Adding/Editing Translations
-
-- To add a new language, copy `locales/en.json` and translate the values.
-- Set `Config.Locale` in `config.lua` to your language code.
 
 ---
 
