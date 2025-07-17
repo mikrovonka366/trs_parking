@@ -1,6 +1,5 @@
 Config = {}
 
--- (see locales folder)
 Config.Locale = 'en'
 
 -- Notification system: 'esx', 'okokNotify', 'ox_lib'
