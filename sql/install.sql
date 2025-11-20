@@ -11,9 +11,13 @@ CREATE TABLE IF NOT EXISTS parking_tickets (
 
 ALTER TABLE owned_vehicles ADD COLUMN IF NOT EXISTS position TEXT NULL;
 
+ALTER TABLE owned_vehicles
+ADD COLUMN parked_since DATETIME NULL DEFAULT NULL;
+
 INSERT IGNORE INTO jobs (name, label) VALUES ('towtrucker', 'Towtrucker');
 
 INSERT IGNORE INTO job_grades (job_name, grade, name, label, salary) VALUES
 ('towtrucker', 0, 'junior', 'Junior Towtrucker', 400),
 ('towtrucker', 1, 'senior', 'Senior Towtrucker', 800),
 ('towtrucker', 2, 'boss', 'Towtrucker Boss', 1200);
+
