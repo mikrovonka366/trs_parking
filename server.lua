@@ -67,7 +67,7 @@ AddEventHandler('parking:tryBuyTicket', function(plate, hours, x, y, z, heading,
     end
 
     local posData = json.encode({ x = x, y = y, z = z })
-    local now = os.date('%Y-%m-%d %H:%M:%S')
+    local now = os.date('%Y-%m-%d-%H:%M:%S')
 
     MySQL.Async.fetchScalar('SELECT duration_hours FROM parking_tickets WHERE plate = @plate', {
         ['@plate'] = plate
