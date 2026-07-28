@@ -67,10 +67,3 @@ This script does **not** respawn or restore parked vehicles after a server resta
 - If a car moves, the ticket is removed and the location is updated
 - All major actions are logged to Discord if webhook is set
 
----
-
-## Support
-
-If you like this resource and want to support my work, you can donate via PayPal: **[paypalme/JozefHruska123](https://www.paypal.com/paypalme/JozefHruska123)**
-
-Thank you for using and supporting my work!
